@@ -1,3 +1,14 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,26 +30,26 @@
       
       <p id="description">Let us know how we can improve freeCodeCamp</p>
       
-      <form id="form">
+      <form id="survey-form">
         
         <div class="form-group row">
           <label id="name-label" for="name" class="col-sm-6 col-form-label">* Name:</label>
           <div class="col-sm-6">
-            <input type="name" class="form-control" id="name" placeholder="Enter your name">
+            <input type="name" class="form-control" id="name" placeholder="Enter your name" required="required">
           </div>
         </div>
         
         <div class="form-group row">
           <label id="email-label" for="email" class="col-sm-6 col-form-label">* Email:</label>
           <div class="col-sm-6">
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required="required">
           </div>
         </div>
         
         <div class="form-group row">
-          <label id="number-label" for="age" class="col-sm-6 col-form-label">* Age:</label>
+          <label id="number-label" for="number" class="col-sm-6 col-form-label">* Age:</label>
           <div class="col-sm-6">
-            <input type="number" class="form-control" id="age" max="100" min="13" placeholder="Enter your age">
+            <input type="number" class="form-control" id="number" max="100" min="13" placeholder="Enter your age" required="required">
           </div>
         </div>
 
@@ -60,15 +71,15 @@
           <label class="col-sm-6 col-form-label">What is your preferred technology stack ?</label>
           <div class="col-sm-6">  
             <div>
-              <input type="radio" class="form-check-input" name="stack" id="mean">
+              <input type="radio" class="form-check-input" name="stack" id="mean" value="mean">
               <label class="form-check-label" for="mean">MEAN or MERN</label>
             </div>
             <div>
-              <input type="radio" class="form-check-input" name="stack" id="pydja">
+              <input type="radio" class="form-check-input" name="stack" id="pydja" value="pydja">
               <label class="form-check-label" for="pydja">Django</label>
             </div>
             <div>
-              <input type="radio" class="form-check-input" name="stack" id="lamp">
+              <input type="radio" class="form-check-input" name="stack" id="lamp" value="lamp">
               <label class="form-check-label" for="lamp">LAMP</label>
             </div>
           </div>
