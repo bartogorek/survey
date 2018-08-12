@@ -1,0 +1,64 @@
+
+
+body {
+  background-color: #a3edd0;
+}
+
+h1 {
+  font-weight: 600;
+  text-align: center;
+  margin: 30px auto;
+}
+
+#description {
+  font-size: 20px;
+  margin: 20px auto 40px auto;
+  text-align: center;
+}
+
+#main {
+  margin: 10px auto;
+  padding: 20px 30px;
+  width: 70%;
+  background-color: White;
+  border-radius: 5px;
+}
+
+.row {
+  margin-top: 28px;
+}
+
+.col-form-label {
+  text-align: end;
+}
+
+.form-control { 
+  width: 65%;
+}
+
+.form-check-input {
+  margin-left: 2px;
+}
+
+.form-check-label {
+  margin-left: 25px;
+  margin-bottom: 3px;
+}
+
+.wrapper {
+  text-align: end;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .form-control {
+    width: 100%;
+  }
+  .col-form-label {
+    text-align: start;
+  }
+  .wrapper {
+    text-align: center;
+  }
+}
+
