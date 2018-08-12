@@ -1,5 +1,4 @@
 
-
 body {
   background-color: #a3edd0;
 }
@@ -49,7 +48,7 @@ h1 {
   text-align: end;
 }
 
-
+/* responsive design added here */ 
 @media only screen and (max-width: 600px) {
   .form-control {
     width: 100%;
